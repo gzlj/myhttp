@@ -1,0 +1,75 @@
+# github.com/Masterminds/semver v1.4.2
+github.com/Masterminds/semver
+# github.com/Masterminds/vcs v1.13.1
+github.com/Masterminds/vcs
+# github.com/armon/go-radix v1.0.0
+github.com/armon/go-radix
+# github.com/boltdb/bolt v1.3.1
+github.com/boltdb/bolt
+# github.com/gin-contrib/sse v0.0.0-20190301062529-5545eab6dad3
+github.com/gin-contrib/sse
+# github.com/gin-gonic/gin v1.4.0
+github.com/gin-gonic/gin
+github.com/gin-gonic/gin/binding
+github.com/gin-gonic/gin/internal/json
+github.com/gin-gonic/gin/render
+# github.com/go-sql-driver/mysql v1.4.1
+github.com/go-sql-driver/mysql
+# github.com/golang/dep v0.5.4
+github.com/golang/dep/cmd/dep
+github.com/golang/dep
+github.com/golang/dep/gps
+github.com/golang/dep/gps/paths
+github.com/golang/dep/gps/pkgtree
+github.com/golang/dep/gps/verify
+github.com/golang/dep/internal/feedback
+github.com/golang/dep/internal/fs
+github.com/golang/dep/internal/importers
+github.com/golang/dep/gps/internal/pb
+github.com/golang/dep/internal/importers/glide
+github.com/golang/dep/internal/importers/glock
+github.com/golang/dep/internal/importers/godep
+github.com/golang/dep/internal/importers/govend
+github.com/golang/dep/internal/importers/govendor
+github.com/golang/dep/internal/importers/gvt
+github.com/golang/dep/internal/importers/vndr
+github.com/golang/dep/internal/importers/base
+# github.com/golang/protobuf v1.3.1
+github.com/golang/protobuf/proto
+# github.com/jinzhu/gorm v1.9.10
+github.com/jinzhu/gorm
+github.com/jinzhu/gorm/dialects/mysql
+# github.com/jinzhu/inflection v1.0.0
+github.com/jinzhu/inflection
+# github.com/jmank88/nuts v0.3.0
+github.com/jmank88/nuts
+# github.com/json-iterator/go v1.1.7
+github.com/json-iterator/go
+# github.com/mattn/go-isatty v0.0.7
+github.com/mattn/go-isatty
+# github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
+github.com/modern-go/concurrent
+# github.com/modern-go/reflect2 v1.0.1
+github.com/modern-go/reflect2
+# github.com/nightlyone/lockfile v0.0.0-20180618180623-0ad87eef1443
+github.com/nightlyone/lockfile
+# github.com/pelletier/go-toml v1.4.0
+github.com/pelletier/go-toml
+# github.com/pkg/errors v0.8.0
+github.com/pkg/errors
+# github.com/sdboyer/constext v0.0.0-20170321163424-836a14457353
+github.com/sdboyer/constext
+# github.com/spaolacci/murmur3 v1.1.0
+github.com/spaolacci/murmur3
+# github.com/ugorji/go v1.1.4
+github.com/ugorji/go/codec
+# golang.org/x/sync v0.0.0-20190227155943-e225da77a7e6
+golang.org/x/sync/errgroup
+# golang.org/x/sys v0.0.0-20190616124812-15dcb6c0061f
+golang.org/x/sys/unix
+# google.golang.org/appengine v1.4.0
+google.golang.org/appengine/cloudsql
+# gopkg.in/go-playground/validator.v8 v8.18.2
+gopkg.in/go-playground/validator.v8
+# gopkg.in/yaml.v2 v2.2.2
+gopkg.in/yaml.v2
