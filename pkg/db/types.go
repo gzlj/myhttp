@@ -15,6 +15,14 @@ type Like struct {
 	Ua        string `gorm:"type:varchar(256);not null;"`
 	Title     string `gorm:"type:varchar(128);not null;index:title_idx"`
 	Hash      uint64 `gorm:"unique_index:hash_idx;"`
+	Hates []Hate `gorm:"FOREIGNKEY:LikeId;ASSOCIATION_FOREIGNKEY:ID"`
+	//Hates []Hate
+}
+
+type Hate struct {
+	gorm.Model
+	Name string
+	LikeId uint
 }
 
 func (l *Like) ToDto() LikeDto {

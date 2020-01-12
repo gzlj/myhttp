@@ -21,6 +21,12 @@ func init() {
 			panic(err)
 		}
 	}
+	//Hate
+	if ! db.HasTable(&Hate{}) {
+		if err = db.Set("gorm:table_options", "ENGINE=InnoDB DEFAULT CHARSET=utf8").CreateTable(&Hate{}).Error; err != nil {
+			panic(err)
+		}
+	}
 	G_db = db
 }
 
@@ -36,10 +42,16 @@ func ADDLike(like *Like) error{
 
 func QueryById(id int) *Like {
 	var like Like
-	if err := G_db.Find(&like, id).Error; err != nil {
+	//like.Id = id
+	like.ID = uint(id)
+	//if err := G_db.Find(&like, id).Error; err != nil {
 		//log.Fatal(err)
-		return nil
-	}
+	//	return nil
+	//}
+	
+	// "Hates" is a name of filed of struct Like
+	G_db.Debug().Preload("Hates").Find(&like)
+	log.Println(like)
 	return &like;
 }
 
